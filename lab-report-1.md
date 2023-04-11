@@ -18,7 +18,7 @@
       - **Should always be "cs15lsp23##@ieng6.ucsd.edu" where ## are changed**
 4. You will most likely get an error message the first time, followed by a confirmation to continue connecting --> type *Yes* & press Enter
 5. Enter your password and press enter.
-       - **Forgot Password? Go to this link to reset password with your associated ieng6 account** -- [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
+      - **Forgot Password? Go to this link to reset password with your associated ieng6 account** -- [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
   - This is the expected output --> ![After entering your password, you will see the remote server prepping](afterpassword.png)
 ### Congratulations! You are now connected to a university computer in the CSE building basement!!
 ## Trying Some Commands
