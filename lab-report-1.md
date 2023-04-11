@@ -6,6 +6,7 @@
     - ![Visual Studio Code is seen at the bottom of my Applications folder](VSCodeApplications.png)
 3. Launch a new VSCode window after installation and make sure it looks something like this --> 
     - ![Visual Studio Code - New Window](VSCodeWindow.png)     
+
 ## Remotely Connecting  
 ### We can use the VSCode terminal to connect remotely to a computer in the CSE basement in order to access course-specific content.
 1. With a new VSCode window open, open a new file with a name of your choice.
@@ -21,6 +22,7 @@
       - **Forgot Password? Go to this link to reset password with your associated ieng6 account** -- [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
   - This is the expected output --> ![After entering your password, you will see the remote server prepping](afterpassword.png)
 ### Congratulations! You are now connected to a university computer in the CSE building basement!!
+
 ## Trying Some Commands
 1. There are a couple of commands you can try once you are in the remote server! Try typing any of these commands into the terminal to see the output --
       - cd ~
