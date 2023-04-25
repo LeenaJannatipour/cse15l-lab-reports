@@ -14,7 +14,9 @@
       - ![Click on New Terminal](NewTermButton.png)
       - **Make sure you are using a "bash" terminal**
 3. Using your course-specific account name, enter this code into the terminal -->
-    **$ ssh cs15lsp23kd@ieng6.ucsd.edu**
+    '''
+    $ ssh cs15lsp23kd@ieng6.ucsd.edu
+    '''
     ![After entering the above code in the terminal](sshtermoutput.png)
       - **Should always be "cs15lsp23##@ieng6.ucsd.edu" where ## are changed**
 4. You will most likely get an error message the first time, followed by a confirmation to continue connecting --> type *Yes* & press Enter
