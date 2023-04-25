@@ -14,9 +14,14 @@
       - ![Click on New Terminal](NewTermButton.png)
       - **Make sure you are using a "bash" terminal**
 3. Using your course-specific account name, enter this code into the terminal -->
-    console.log($ ssh cs15lsp23kd@ieng6.ucsd.edu);
+    ```
+    $ ssh cs15lsp23kd@ieng6.ucsd.edu
+    ```
     ![After entering the above code in the terminal](sshtermoutput.png)
-      - **Should always be "cs15lsp23##@ieng6.ucsd.edu" where ## are changed**
+    ```
+     $ ssh cs15lsp23##@ieng6.ucsd.edu
+     ```
+     **Replace the ## with your course-specific account & Remember to not add the $ when typing in the terminal**
 4. You will most likely get an error message the first time, followed by a confirmation to continue connecting --> type *Yes* & press Enter
 5. Enter your password and press enter.
       - **Forgot Password? Go to this link to reset password with your associated ieng6 account** -- [https://sdacs.ucsd.edu/~icc/index.php](https://sdacs.ucsd.edu/~icc/index.php)
@@ -25,14 +30,37 @@
 
 ## Trying Some Commands
 1. There are a couple of commands you can try once you are in the remote server! Try typing any of these commands into the terminal to see the output --
-      - cd ~
-      - cd
-      - ls -lat
-      - ls -a
-      - pwd
-      - mkdir
-      - cp
-2. To exit the terminal --> Ctrl-D or run command *exit*
+      - The first & second command changes the current working directory to your home directory ( '~' is short for home directory)
+      ```   
+      $ cd ~
+      ```
+      ```
+      $ cd
+      ```
+      - The below command will list all the files in your current directory, including hidden files, in long format, sorted by last modified time in descending order
+      ```
+      $ ls -lat
+      ```
+      - With '-a', the output will list all files, including hidden files, whose name begins with a dot,'.'.
+      ```
+      $ ls -a
+      ```
+      - "pwd" stands for print working directory
+      ```
+      $ pwd
+      ```
+      - "mkdir" will create a new directory (usually followed by the directory name) in the current working directory
+      ```
+      $ mkdir
+      ```
+      - "cp" is short for copy; it will copy all files from one location to another (scp stands for secure copy)
+      ```
+      $ cp
+      ```
+2. To exit the terminal --> Ctrl-D or run the below command 
+```
+exit
+```
 ### Example of running a command in terminal of your remote server:
 ![Different commands run in remote terminal](remotecommands.png) 
    
