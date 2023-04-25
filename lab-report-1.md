@@ -59,11 +59,11 @@
       ```
 2. To exit the terminal --> Ctrl-D or run the below command 
 ```
-exit
+$ exit
 ```
 ### Example of running a command in terminal of your remote server:
-1) After entering my course-specific account email (ending in @ieng6.ucsd.edu) & password, I am able to run commands in the remote server now
-2) "cd" & "cd~" do not change anything as I am already in the home directory
-3) "ls-lat", as mentioned above, will print all files starting with a dot
+1. After entering my course-specific account email (ending in @ieng6.ucsd.edu) & password, I am able to run commands in the remote server now
+2. "cd" & "cd~" do not change anything as I am already in the home directory
+3. "ls-lat", as mentioned above, will print all files starting with a dot
 ![Different commands run in remote terminal](remotecommands.png) 
    
