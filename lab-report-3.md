@@ -50,19 +50,20 @@ technical/biomed/gb-2001-2-9-research0035.txt:          candidate CDSs include r
 ```
 3. grep -i
   - will be case insensitive in the search (upper and lower case letters)
-  ```
+```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:135$ grep -i "hello" technical/911report/chapter-1.txt
     At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President: There's been at least three instances here where we've had reports of aircraft approaching Washington-a couple were confirmed hijack. And, pursuant to the President's instructions I gave authorization for them to be taken out. Hello?
-  ```
-  ```
+```
+```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:147$ grep -i "Analyze" technical/911report/chapter-6.txt
             In late 1999, the National Security Agency (NSA) analyzed communications associated
-  ```
+```
 4. grep -v
   - this command will list all lines without the given string 
   - it is the inverse of grep
   - this command will leave spaces where the pattern is a match in the file you are using grep in (as seen below)
-  ```
+  
+```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:154$ grep -v "a" technical/government/Media/Survey.txt
 
 
@@ -105,9 +106,8 @@ centers."
 
 
 
-
-  ```
-  ```
+```
+```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:159$ grep -v -i "a" technical/government/Media/Terrorist_Attack.txt
 
 
@@ -129,7 +129,6 @@ philosophy.
 
 
 
-  ```
-  
+```
   **All sources by https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/** 
   
