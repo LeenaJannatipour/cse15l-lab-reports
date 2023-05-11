@@ -108,9 +108,28 @@ centers."
 
   ```
   ```
-  
+  [cs15lsp23kd@ieng6-201]:stringsearch-data:159$ grep -v -i "a" technical/government/Media/Terrorist_Attack.txt
+
+
+
+
+System
+Center.
+buildings."
+
+profession.
+Project.
+perform.
+
+
+The Slowly Grinding Wheels of Justice
+will work."
+philosophy.
+
+
+
+
   ```
   
-  
-  
+  **All sources by https://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/** 
   
