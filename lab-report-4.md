@@ -87,4 +87,3 @@ $ git commit -m "Updated?"
 $ git push origin ListExamples
 ```
 ![Commit & Push to main with message via bash terminal](lab7addandcommit.png)
-![Commit the changed file to Github through Github Desktop](lab7maincommit.png)
