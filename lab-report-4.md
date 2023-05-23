@@ -6,12 +6,11 @@
 ```
 $ ssh cs15lsp23kd@ieng6.ucsd.edu
 ```
-
 ```
 <enter>
 ```
 ![ssh remote server Login](lab7sshlogin.png)
-## Clone your fork of the repository from your Github account
+### Clone your fork of the repository from your Github account
 - Once you are in ieng6, change the directory to lab7 + press Enter
 ```
 $ cd lab7
@@ -23,7 +22,6 @@ $ cd lab7
 ```
 $ rm -rf lab7
 ```
-
 - Then, clone your fork of the repository from the command line + press Enter
 ```
 $ git clone https://github.com/LeenaJannatipour/lab7
@@ -31,22 +29,17 @@ $ git clone https://github.com/LeenaJannatipour/lab7
 ```
 <enter>
 ```
-
 ![Clone my fork of the repository from terminal](lab7gitclone.png)
-
-## Run the tests, demonstrating that they fail
+### Run the tests, demonstrating that they fail
 - Before fixing the bug in the code, we run the JUnit tests & press Enter
 ```
 $ javac ListExamples.java
 ```
-
 ```
 $ bash test.sh
 ```
-
 ![Running tests with a bug in the code](lab7testfailures.png)
-
-## Edit the code file to fix the failing test
+### Edit the code file to fix the failing test
 - To edit the code in the terminal, we can use vim to edit the ListExamples java file 
 ```
 $ vim ListExamples.java
@@ -79,8 +72,7 @@ $ vim ListExamples.java
 ![After the above input, we can see the ListExamples file in the terminal](lab7vimstep1.png)
 ![Searching for all occurrences of index1](lab7vimstep2.png)
 ![After fixing the bug in the merge method](lab7vimfix.png)
-
-## Run the tests, demonstrating that they now succeed
+### Run the tests, demonstrating that they now succeed
 - After saving the vim file, we can run the JUnit test file again
 ```
 <Shift + ;> <w> <q> <Enter>
@@ -93,9 +85,7 @@ $ cat ListExamples.java
 $ bash test.sh
 ```
 ![Successful Test Run after fixing bug](lab7testsuccess.png)
-
-
-## Commit and push the resulting change to your Github account
+### Commit and push the resulting change to your Github account
 ```
 $ git add ListExamples.java
 ```
