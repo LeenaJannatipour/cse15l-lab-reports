@@ -6,8 +6,6 @@
 - Open a new bash terminal and input your ieng6 remote server account & press Enter
 ```
 $ ssh cs15lsp23kd@ieng6.ucsd.edu
-```
-```
 <enter>
 ```
 
@@ -18,9 +16,6 @@ $ ssh cs15lsp23kd@ieng6.ucsd.edu
 - Once you are in ieng6, change the directory to lab7 + press Enter
 ```
 $ cd lab7
-```
-
-```
 <enter>
 ```
 
@@ -32,9 +27,6 @@ $ rm -rf lab7
 - Then, clone your fork of the repository from the command line + press Enter
 ```
 $ git clone https://github.com/LeenaJannatipour/lab7
-```
-
-```
 <enter>
 ```
 
