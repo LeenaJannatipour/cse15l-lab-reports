@@ -58,32 +58,31 @@ $ vim ListExamples.java
 <enter>
 ```
 
-- Once in vim, we can search for the bug and edit it accordingly
+- Once in vim, we can search for the bug and edit it accordingly (search for "index1" b/c after "/")
 ```
 /index1
 ```
 
-- letters after "/" is what we search the file for 
 ```
 <enter>
 ```
 
+- "n" will go to the next occurence of index1
 ```
 <n> <n> <n> <n> <n> <n> <n> <n> <n>
 ```
 
-- Goes to the 9th occurence of "index1" by pressing "n" repeatedly
+- "l" will to go right by one indent every time you press it 
 ```
 <l> <l> <l> <l> <l>
 ```
 
-- "l" to go right 5 times 
-```
-<x> <i> <2> <Esc>
-```
 - "x" will delete the 2 
 - "i" will go into vim insert mode to add the "2" 
 - "esc" to back into vim mode before saving & quitting
+```
+<x> <i> <2> <Esc>
+```
 
 ![After the above input, we can see the ListExamples file in the terminal](lab7vimstep1.png)
 
@@ -105,6 +104,7 @@ $ cat ListExamples.java
 ```
 $ bash test.sh
 ```
+
 ![Successful Test Run after fixing bug](lab7testsuccess.png)
 
 ### Commit and push the resulting change to your Github account
