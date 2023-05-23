@@ -50,6 +50,13 @@ $ bash test.sh
 
 ### Edit the code file to fix the failing test
 - To edit the code in the terminal, we can use vim to edit the ListExamples java file 
+- Once in vim, we can search for the bug and edit it accordingly (search for "index1" b/c after "/")
+- "n" will go to the next occurence of index1
+- "l" will to go right by one indent every time you press it 
+- "x" will delete the 2 
+- "i" will go into vim insert mode to add the "2" 
+- "esc" to back into vim mode before saving & quitting
+
 ```
 $ vim ListExamples.java
 ```
@@ -58,7 +65,6 @@ $ vim ListExamples.java
 <enter>
 ```
 
-- Once in vim, we can search for the bug and edit it accordingly (search for "index1" b/c after "/")
 ```
 /index1
 ```
@@ -67,21 +73,20 @@ $ vim ListExamples.java
 <enter>
 ```
 
-- "n" will go to the next occurence of index1
 ```
 <n> <n> <n> <n> <n> <n> <n> <n> <n>
 ```
 
-- "l" will to go right by one indent every time you press it 
 ```
 <l> <l> <l> <l> <l>
 ```
 
-- "x" will delete the 2 
-- "i" will go into vim insert mode to add the "2" 
-- "esc" to back into vim mode before saving & quitting
 ```
 <x> <i> <2> <Esc>
+```
+
+```
+<Shift + ;> <w> <q> <Enter>
 ```
 
 ![After the above input, we can see the ListExamples file in the terminal](lab7vimstep1.png)
@@ -92,10 +97,6 @@ $ vim ListExamples.java
 
 ### Run the tests, demonstrating that they now succeed
 - After saving the vim file, we can run the JUnit test file again
-```
-<Shift + ;> <w> <q> <Enter>
-```
-
 - To verify the change to effect in the ListExamples file
 ```
 $ cat ListExamples.java
