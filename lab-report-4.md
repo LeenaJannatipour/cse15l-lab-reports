@@ -1,11 +1,12 @@
 # Lab Report 4
 ## Using Vim to edit Java files
-## Logging into ieng6
+### Logging into ieng6
 - Open Lab 7 repository in VS Code via Github Desktop
 - Open a new bash terminal and input your ieng6 remote server account & press Enter
 ```
 $ ssh cs15lsp23kd@ieng6.ucsd.edu
 ```
+
 ```
 <enter>
 ```
