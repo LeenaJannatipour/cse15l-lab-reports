@@ -1,6 +1,7 @@
 # Lab Report 4
 ## Using Vim to edit Java files
 ### Logging into ieng6
+
 - Open Lab 7 repository in VS Code via Github Desktop
 - Open a new bash terminal and input your ieng6 remote server account & press Enter
 ```
@@ -9,27 +10,34 @@ $ ssh cs15lsp23kd@ieng6.ucsd.edu
 ```
 <enter>
 ```
+
 ![ssh remote server Login](lab7sshlogin.png)
 
 ### Clone your fork of the repository from your Github account
+
 - Once you are in ieng6, change the directory to lab7 + press Enter
 ```
 $ cd lab7
 ```
+
 ```
 <enter>
 ```
+
 - If you have not deleted your past fork of the repository, use the following command:
 ```
 $ rm -rf lab7
 ```
+
 - Then, clone your fork of the repository from the command line + press Enter
 ```
 $ git clone https://github.com/LeenaJannatipour/lab7
 ```
+
 ```
 <enter>
 ```
+
 ![Clone my fork of the repository from terminal](lab7gitclone.png)
 
 ### Run the tests, demonstrating that they fail
@@ -37,9 +45,11 @@ $ git clone https://github.com/LeenaJannatipour/lab7
 ```
 $ javac ListExamples.java
 ```
+
 ```
 $ bash test.sh
 ```
+
 ![Running tests with a bug in the code](lab7testfailures.png)
 
 ### Edit the code file to fix the failing test
