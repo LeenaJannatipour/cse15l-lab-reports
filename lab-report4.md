@@ -31,6 +31,7 @@ $ rm -rf lab7
 ```
 $ git clone https://github.com/LeenaJannatipour/lab7
 ```
+
 ```
 <enter>
 ```
@@ -41,6 +42,7 @@ $ git clone https://github.com/LeenaJannatipour/lab7
 ```
 $ javac ListExamples.java
 ```
+
 ```
 $ bash test.sh
 ```
@@ -51,24 +53,30 @@ $ bash test.sh
 ```
 $ vim ListExamples.java
 ```
+
 ```
 <enter>
 ```
+
 - Once in vim, we can search for the bug and edit it accordingly
 ```
 /index1
 ```
+
 - letters after "/" is what we search the file for 
 ```
 <enter>
 ```
+
 ```
 <n> <n> <n> <n> <n> <n> <n> <n> <n>
 ```
+
 - Goes to the 9th occurence of "index1" by pressing "n" repeatedly
 ```
 <l> <l> <l> <l> <l>
 ```
+
 - "l" to go right 5 times 
 ```
 <x> <i> <2> <Esc>
@@ -76,31 +84,43 @@ $ vim ListExamples.java
 - "x" will delete the 2 
 - "i" will go into vim insert mode to add the "2" 
 - "esc" to back into vim mode before saving & quitting
+
 ![After the above input, we can see the ListExamples file in the terminal](lab7vimstep1.png)
+
 ![Searching for all occurrences of index1](lab7vimstep2.png)
+
 ![After fixing the bug in the merge method](lab7vimfix.png)
+
 ### Run the tests, demonstrating that they now succeed
 - After saving the vim file, we can run the JUnit test file again
 ```
 <Shift + ;> <w> <q> <Enter>
 ```
+
 - To verify the change to effect in the ListExamples file
 ```
 $ cat ListExamples.java
 ```
+
 ```
 $ bash test.sh
 ```
 ![Successful Test Run after fixing bug](lab7testsuccess.png)
 
 ### Commit and push the resulting change to your Github account
+
 ```
 $ git add ListExamples.java
 ```
+
 ```
 $ git commit -m "Updated?"
 ```
+
 ```
 $ git push origin ListExamples
 ```
+
 ![Commit & Push to main with message via bash terminal](lab7addandcommit.png)
+
+
