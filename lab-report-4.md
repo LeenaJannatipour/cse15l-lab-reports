@@ -13,6 +13,10 @@ $ ssh cs15lsp23kd@ieng6.ucsd.edu
 ```
 $ cd lab7
 ```
+- If you have not deleted your past fork of the repository, use the following command:
+```
+$ rm -rf lab7
+```
 - Then, clone your fork of the repository from the command line + press Enter
 ```
 $ git clone https://github.com/LeenaJannatipour/lab7
@@ -24,7 +28,6 @@ $ git clone https://github.com/LeenaJannatipour/lab7
 ```
 $ javac ListExamples.java
 ```
-
 ```
 $ bash test.sh
 ```
@@ -49,19 +52,39 @@ $ vim ListExamples.java
 <n> <n> <n> <n> <n> <n> <n> <n> <n>
 ```
 ```
-
+<l> <l> <l> <l> <l>
 ```
-
+```
+<x> <i> <2> <Esc>
+```
 ![After the above input, we can see the ListExamples file in the terminal](lab7vimstep1.png)
-- Pressing n to get to the correct bug, we can change "index1" to "index2" so the tests correctly run
 ![Searching for all occurrences of index1](lab7vimstep2.png)
 ![After fixing the bug in the merge method](lab7vimfix.png)
 
 ### Run the tests, demonstrating that they now succeed
-- After saving the vim file editing by typing ":wq" + Enter, we can run the JUnit test file again
+- After saving the vim file, we can run the JUnit test file again
+```
+<Shift + ;> <w> <q> <Enter>
+```
+- To verify the change to effect in the ListExamples file
+```
+$ cat ListExamples.java
+```
+```
+$ bash test.sh
+```
 ![Successful Test Run after fixing bug](lab7testsuccess.png)
 
 
 ### Commit and push the resulting change to your Github account
-
+```
+$ git add ListExamples.java
+```
+```
+$ git commit -m "Updated?"
+```
+```
+$ git push origin ListExamples
+```
+![Commit & Push to main with message via bash terminal](lab7addandcommit.png)
 ![Commit the changed file to Github through Github Desktop](lab7maincommit.png)
