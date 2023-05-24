@@ -10,6 +10,9 @@ grep "hello" ./technical
 1. grep -c
   - this will output the count of lines that match <<string>> in one or more files
   - this will not display the lines that are matched, only a single number for the number of occurrences
+  - this is useful if you want to filter out the number of times a string occurs in a file 
+  - The below code block will count the number of times grep searches for "e" in pmed file in the plos folder in the technical directory.
+  - The second code block will count the number of times grep searches for "a" in water_fees.txt in the Media folder located in the government folder in the technical directory
 ```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:119$ grep -c "e" technical/plos/pmed.0020281.txt
   32
@@ -21,6 +24,8 @@ grep "hello" ./technical
 2. grep -R
   - this command will search through all the files in that directory and print the file its in and the matching output
   - this is particularly helpful when you need to look across a directory for a string pattern 
+  - The below code block will search "Z" across all files in the Alcohol_Problems and print all matching occurrences of files with Z in it 
+  - The second code block will search "tired" in the biomed folder in the technical directory
 ```
 [cs15lsp23kd@ieng6-201]:stringsearch-data:128$ grep -R "Z" technical/government/Alcohol_Problems
 technical/government/Alcohol_Problems/Session2-PDF.txt:16. Isaacson J, Butler R, Zacharek M, Tzelepis A. A screening
@@ -50,6 +55,9 @@ technical/biomed/gb-2001-2-9-research0035.txt:          candidate CDSs include r
 ```
 3. grep -i
   - will be case insensitive in the search (upper and lower case letters)
+  - This is helpful when you want to search for a string without knowing the format of the string exactly
+  - The first code block will search for "hello" without sensitivity in chapter-1.txt file
+  - The second code block will search for "Analyze" without sensitivity in chapter-6.txt file
 ```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:135$ grep -i "hello" technical/911report/chapter-1.txt
     At 10:39, the Vice President updated the Secretary on the air threat conference: Vice President: There's been at least three instances here where we've had reports of aircraft approaching Washington-a couple were confirmed hijack. And, pursuant to the President's instructions I gave authorization for them to be taken out. Hello?
@@ -61,8 +69,10 @@ technical/biomed/gb-2001-2-9-research0035.txt:          candidate CDSs include r
 4. grep -v
   - this command will list all lines without the given string 
   - it is the inverse of grep
+  - this is helpful to find all lines without a certain string present
   - this command will leave spaces where the pattern is a match in the file you are using grep in (as seen below)
-  
+  - the below code block will output all lines without "a" present in the Survey.txt file
+  - the second code block will output all lines without "a" or "A" in the Terrorist_Attack.txt file
 ```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:154$ grep -v "a" technical/government/Media/Survey.txt
 
