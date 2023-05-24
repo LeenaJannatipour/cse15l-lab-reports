@@ -73,6 +73,7 @@ technical/biomed/gb-2001-2-9-research0035.txt:          candidate CDSs include r
   - this command will leave spaces where the pattern is a match in the file you are using grep in (as seen below)
   - the below code block will output all lines without "a" present in the Survey.txt file
   - the second code block will output all lines without "a" or "A" in the Terrorist_Attack.txt file
+  
 ```
   [cs15lsp23kd@ieng6-201]:stringsearch-data:154$ grep -v "a" technical/government/Media/Survey.txt
 
